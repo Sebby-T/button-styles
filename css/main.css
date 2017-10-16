@@ -11,3 +11,43 @@ div {
   padding: .5rem;
   text-align: center;
 }
+
+/* Button Standard */
+
+.btn {
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  border-width: 3px;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+/* Button Subtle */
+
+.btn-subtle {
+  background-color: #ccc;
+}
+
+.btn-subtle:hover {
+  background-color: #666;
+}
+
+/* Button Ghost */
+
+.btn-ghost {
+  background-color: #fff;
+  color: #000;
+  border-style: solid;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+  color: #fff;
+  border-style: solid;
+  border-color: #666;
+}
