@@ -13,7 +13,7 @@ div {
 }
 
 .btn {
-  display: inline;
+  display: inline-block;
   text-decoration: none;
   background-color: #333;
   color: #fff;
@@ -55,8 +55,6 @@ div {
 .btn-warning:hover {
   background-color: #933;
 }
-
-/* Button Sizes */
 
 .btn-small {
   font-size: .875rem;
