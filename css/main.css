@@ -15,12 +15,11 @@ div {
 .btn {
   display: inline-block;
   text-decoration: none;
-  background-color: #333;
-  color: #fff;
   font-size: 1.125rem;
   padding: .4em .75em .3em;
   border-radius: 8px;
-  border-width: 3px;
+  background-color: #333;
+  color: #fff;
 }
 
 .btn:hover {
@@ -39,6 +38,7 @@ div {
   background-color: #fff;
   color: #000;
   border-style: solid;
+  border-width: 3px;
 }
 
 .btn-ghost:hover {
