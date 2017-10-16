@@ -12,12 +12,12 @@ div {
   text-align: center;
 }
 
-/* Button Standard */
-
 .btn {
+  display: inline;
   text-decoration: none;
   background-color: #333;
   color: #fff;
+  font-size: 1.125rem;
   padding: .4em .75em .3em;
   border-radius: 8px;
   border-width: 3px;
@@ -27,23 +27,17 @@ div {
   background-color: #000;
 }
 
-/* Button Subtle */
-
 .btn-subtle {
   background-color: #ccc;
-  padding: .4em .75em .3em;
 }
 
 .btn-subtle:hover {
   background-color: #666;
 }
 
-/* Button Ghost */
-
 .btn-ghost {
   background-color: #fff;
   color: #000;
-  padding: .4em .75em .3em;
   border-style: solid;
 }
 
@@ -54,11 +48,8 @@ div {
   border-color: #666;
 }
 
-/* Button Warning */
-
 .btn-warning {
   background-color: #f33;
-  padding: .4em .75em .3em;
 }
 
 .btn-warning:hover {
@@ -66,10 +57,6 @@ div {
 }
 
 /* Button Sizes */
-
-.btn {
-  font-size: 1.125rem;
-}
 
 .btn-small {
   font-size: .875rem;
